@@ -1,0 +1,28 @@
+.table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+.table, .header, .cell, .type {
+    border: 2px solid #000;
+}
+
+.header {
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+.cell {
+    text-align: center;
+    width: 33%;
+}
+
+.type {
+    text-transform: capitalize;
+    padding-left: 50px;
+    width: 33%;
+}
+
+.grey {
+    background-color: #d3d3d3;
+}
